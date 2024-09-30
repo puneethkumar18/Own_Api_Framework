@@ -14,7 +14,7 @@ def getUsers(req,res,id):
 
 @slowapi.post('/users')
 def getUsers(req,res):
-    res.send(400,400)
+    res.send(400,400).     
 
 
 @slowapi.get('/users')
